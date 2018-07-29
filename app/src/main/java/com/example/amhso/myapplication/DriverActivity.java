@@ -416,9 +416,7 @@ public class DriverActivity extends FragmentActivity implements OnMapReadyCallba
             public void onClick(View arg0) {
 
 
-
-
-
+                Log.i("test", "onClick: "+"test github");
 
 
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + Uri.encode(order[IndexView].getPhone())));
