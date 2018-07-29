@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+    <View
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:alpha="0.5"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:textSize="70sp"
+        android:id="@+id/textView"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:id="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/user"
+        android:drawableLeft="@drawable/user"
+        android:hint="نام کاربری"
+        android:textColorHint="#ffffff"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="رمز ورود"
+        android:drawableLeft="@drawable/pass"
+        android:textSize="20sp"
+        android:textColorHint="#ffffff"
+        android:textColor="#FFFFFF"
+        android:id="@+id/pass"
+
+        android:layout_below="@+id/user"
+        android:layout_alignLeft="@+id/user"
+        android:layout_alignStart="@+id/user"
+        android:layout_alignRight="@+id/user"
+        android:layout_alignEnd="@+id/user" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#60ffffff"
+        android:textColor="@android:color/background_dark"
+        android:text="ورود"
+        android:textSize="20sp"
+        android:id="@+id/send"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="6dp"
+        android:layout_alignLeft="@+id/pass"
+        android:layout_alignStart="@+id/pass"
+        android:layout_alignRight="@+id/pass"
+        android:layout_alignEnd="@+id/pass" />
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAppearance="?android:attr/textAppearanceSmall"-->
+        <!--android:text="Android | Lollipop | Material | Yasir | Ameen | Login | Design | Activity | Blog | Facebook | Google | Kitkat | Marshmallow | Google"-->
+        <!--android:textColor="#FFFFFF"-->
+        <!--android:alpha="0.6"-->
+        <!--android:id="@+id/textView4"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="41dp"-->
+        <!--android:layout_alignRight="@+id/button3"-->
+        <!--android:layout_alignEnd="@+id/button3"-->
+        <!--android:layout_alignLeft="@+id/button3"-->
+        <!--android:layout_alignStart="@+id/button3" />-->
+
+
+
+
+</RelativeLayout>
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="300dp"-->
+    <!--android:layout_height="500dp"-->
+
+    <!--android:orientation="vertical">-->
+
+
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="100dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textSize="20dp"-->
+        <!--android:text="مشخصات زیر را پر کنید:" />-->
+
+
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/username"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_marginRight="30dp"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:hint="نام کاربری"-->
+        <!--/>-->
+
+
+    <!--<EditText-->
+        <!--android:id="@+id/password"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_marginRight="30dp"-->
+        <!--android:layout_marginLeft="30dp"-->
+        <!--android:inputType="textPassword"-->
+        <!--android:hint="رمز عبور"/>-->
+
+
+
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal"-->
+
+
+        <!--&gt;-->
+
+            <!--<Button-->
+                <!--android:id="@+id/send"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="ارسال"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginLeft="30dp"-->
+
+                <!--/>-->
+
+
+            <!--&lt;!&ndash;<Button&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/cancel"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="انصراف"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="5dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginRight="5dp"&ndash;&gt;-->
+
+                <!--&lt;!&ndash;/>&ndash;&gt;-->
+        <!--</LinearLayout>-->
+
+<!--</LinearLayout>-->
